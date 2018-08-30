@@ -5,12 +5,6 @@ class User < ActiveRecord::Base
 	# line of code to User. we told Ruby to add an authenticate method to our
 	# class (invisibly!) when the program runs. While we, as programmers
 	# can't see it, it will be there.
-
-	def self.logged_in?
-	end
-
-	def self.current_user
-	end
 end
 
 
